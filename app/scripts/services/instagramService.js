@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('oigramApp')
+angular.module('instaApp')
   .factory('$instagramService', function ($http) {
     // Service logic
     var url = 'https://api.instagram.com/v1/tags/{0}/media/recent?client_id=2dc32c3cce4943b0bc020a3648f0a20f&callback=JSON_CALLBACK';

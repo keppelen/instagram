@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('oigramApp')
+angular.module('instaApp')
 	.controller('MainCtrl', function ($scope, $http, $timeout, $instagramService) {
 
 	$scope.tag = 'frontinbh';

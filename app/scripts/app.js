@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('oigramApp', [])
+angular.module('instaApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
