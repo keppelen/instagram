@@ -1,0 +1,39 @@
+/* line 3, main.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, main.scss */
+body {
+  background: #f6f6f6 url("https://planoy.mobicare.com.br/planoy/assets/imagens/bg-header.png") top left repeat-x;
+  padding-top: 2px;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+/* line 23, main.scss */
+.logo {
+  background: url("https://planoy.mobicare.com.br/planoy/assets/imagens/oi-galera.png") left no-repeat;
+  width: 16.640625%;
+  height: 77px;
+  margin-top: 70px;
+  float: left;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+
+/* line 32, main.scss */
+li {
+  list-style: none;
+  float: left;
+  width: 16.640625%;
+}
+/* line 37, main.scss */
+li img {
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,14 @@
+<div class="hero-unit">
+  <ul>
+      <li ng-repeat="data in images" ng-show="$index <= 5" data="$index">
+      	<a href="{{data.link}}">
+      		<img ng-src="{{data.images.standard_resolution.url}}" alt="" class="pictures">
+      		<span class="user">
+      			<img ng-src="{{ data.user.profile_picture }}" alt="">
+      			<p>{{ data.user.full_name }}</p>
+      		</span>
+      	</a>
+      	<!-- <p>Por: {{image.user.full_name}}</p> -->
+      </li>
+  </ul>
+</div>

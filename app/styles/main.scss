@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@mixin img_replacement {
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	display: block;
+}
+
+body {
+	border-top: 4px solid #FF2C55;
+	padding-top: 2px;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.logo {
+	background: url("https://planoy.mobicare.com.br/planoy/assets/imagens/oi-galera.png")  left no-repeat;
+	font-family: "Helvetica";
+	text-align: center;
+	width: 16.640625%;
+	height: 77px;
+	margin-top: 70px;
+	float: left;
+	@include img_replacement();
+}
+
+li {
+	list-style: none;
+	float: left;
+	width: 33%;
+	margin: .1%;
+	position: relative;
+
+	.pictures {
+		width: 100%;
+		display: block;
+	}
+}
+
+.user {
+	position: absolute;
+	bottom: 5px;
+	padding: 5px;
+	background: none repeat scroll 0% 0% #FFF;
+	width: 95%;
+	margin-left: 1.5%;
+
+	p {
+		font-family: "verdana", Arial, sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		color: #555;
+		float: left;
+		margin: 10px;
+	}
+
+	img {
+		width: 40px;
+		border-radius: 50%;
+		float: left;
+	}
+}
