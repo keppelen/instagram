@@ -1,21 +1,23 @@
-/* line 3, main.scss */
+/* line 1, ../../app/styles/main.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 15, main.scss */
+/* line 13, ../../app/styles/main.scss */
 body {
-  background: #f6f6f6 url("https://planoy.mobicare.com.br/planoy/assets/imagens/bg-header.png") top left repeat-x;
+  border-top: 4px solid #FF2C55;
   padding-top: 2px;
   width: 100%;
   height: 100%;
   float: left;
 }
 
-/* line 23, main.scss */
+/* line 21, ../../app/styles/main.scss */
 .logo {
   background: url("https://planoy.mobicare.com.br/planoy/assets/imagens/oi-galera.png") left no-repeat;
+  font-family: "Helvetica";
+  text-align: center;
   width: 16.640625%;
   height: 77px;
   margin-top: 70px;
@@ -26,14 +28,41 @@ body {
   display: block;
 }
 
-/* line 32, main.scss */
+/* line 32, ../../app/styles/main.scss */
 li {
   list-style: none;
   float: left;
-  width: 16.640625%;
+  width: 33%;
+  margin: .1%;
+  position: relative;
 }
-/* line 37, main.scss */
-li img {
+/* line 39, ../../app/styles/main.scss */
+li .pictures {
   width: 100%;
   display: block;
+}
+
+/* line 45, ../../app/styles/main.scss */
+.user {
+  position: absolute;
+  bottom: 5px;
+  padding: 5px;
+  background: none repeat scroll 0% 0% #FFF;
+  width: 95%;
+  margin-left: 1.5%;
+}
+/* line 53, ../../app/styles/main.scss */
+.user p {
+  font-family: "verdana", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  float: left;
+  margin: 10px;
+}
+/* line 62, ../../app/styles/main.scss */
+.user img {
+  width: 40px;
+  border-radius: 50%;
+  float: left;
 }
