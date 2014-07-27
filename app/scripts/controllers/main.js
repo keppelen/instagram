@@ -12,6 +12,7 @@ angular.module('instaApp')
 
 	$scope.handlerRefreshImagesSuccess = function( data ){
 		$scope.images = data.data;
+		console.log( data );
 		$timeout($scope.refreshImages, $scope.refreshTime);
 	};
 

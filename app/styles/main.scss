@@ -32,7 +32,7 @@ body {
 li {
 	list-style: none;
 	float: left;
-	width: 33%;
+	width: 23%;
 	margin: .1%;
 	position: relative;
 
@@ -45,14 +45,14 @@ li {
 .user {
 	position: absolute;
 	bottom: 5px;
-	padding: 5px;
+	padding: 3px;
 	background: none repeat scroll 0% 0% #FFF;
 	width: 95%;
 	margin-left: 1.5%;
 
 	p {
 		font-family: "verdana", Arial, sans-serif;
-		font-size: 14px;
+		font-size: 12px;
 		font-weight: bold;
 		color: #555;
 		float: left;
@@ -60,7 +60,7 @@ li {
 	}
 
 	img {
-		width: 40px;
+		width: 35px;
 		border-radius: 50%;
 		float: left;
 	}

@@ -433,7 +433,7 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'copy:dist'
+    'copy:dist',
     'htmlmin'
   ]);
 
